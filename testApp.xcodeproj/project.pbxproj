@@ -15,6 +15,8 @@
 		C2B08A2525B759C80038D385 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B08A2325B759C80038D385 /* LaunchScreen.storyboard */; };
 		C2B08A3025B759C90038D385 /* testAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B08A2F25B759C90038D385 /* testAppTests.swift */; };
 		C2B08A3B25B759C90038D385 /* testAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B08A3A25B759C90038D385 /* testAppUITests.swift */; };
+		C2B08A4C25B75B270038D385 /* UrunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B08A4B25B75B270038D385 /* UrunViewController.swift */; };
+		C2B08A5125B81CE80038D385 /* KasaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B08A5025B81CE80038D385 /* KasaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		C2B08A3625B759C90038D385 /* testAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2B08A3A25B759C90038D385 /* testAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testAppUITests.swift; sourceTree = "<group>"; };
 		C2B08A3C25B759C90038D385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2B08A4B25B75B270038D385 /* UrunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrunViewController.swift; sourceTree = "<group>"; };
+		C2B08A5025B81CE80038D385 /* KasaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KasaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				C2B08A2125B759C80038D385 /* Assets.xcassets */,
 				C2B08A2325B759C80038D385 /* LaunchScreen.storyboard */,
 				C2B08A2625B759C80038D385 /* Info.plist */,
+				C2B08A4B25B75B270038D385 /* UrunViewController.swift */,
+				C2B08A5025B81CE80038D385 /* KasaViewController.swift */,
 			);
 			path = testApp;
 			sourceTree = "<group>";
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2B08A4C25B75B270038D385 /* UrunViewController.swift in Sources */,
 				C2B08A1D25B759C50038D385 /* ViewController.swift in Sources */,
 				C2B08A1925B759C50038D385 /* AppDelegate.swift in Sources */,
 				C2B08A1B25B759C50038D385 /* SceneDelegate.swift in Sources */,
+				C2B08A5125B81CE80038D385 /* KasaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
